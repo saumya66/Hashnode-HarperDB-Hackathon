@@ -1,0 +1,128 @@
+.post-comp {
+	position: relative;
+	margin-top: 0.5rem;
+	background-color: #ffffff;
+	min-width: 470px;
+	max-width: 100%;
+	min-height: 300px;
+	max-height: 40%;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	border-radius: 5px;
+	.user-info {
+		display: flex;
+		height: 40px;
+		img {
+			border-radius: 50%;
+			margin-right: 0.5rem;
+		}
+		.user {
+			display: flex;
+
+			flex-direction: column;
+			justify-content: space-evenly;
+			h5 {
+				margin: 0;
+			}
+			.name {
+				font-weight: 500;
+				font-size: 1rem;
+			}
+			.date {
+				opacity: 0.8;
+				font-size: 0.8rem;
+
+				font-weight: 500;
+			}
+		}
+	}
+	.blog-desc {
+		display: flex;
+		overflow: hidden;
+		height: 240px;
+		.text-content {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: space-evenly;
+
+			h5 {
+				margin: 0;
+			}
+			.blog-name {
+				font-size: 1.4rem;
+				font-weight: 600;
+				margin: 0.2rem 0;
+				margin-bottom: 0.4rem;
+			}
+			.blog-link {
+				font-size: 0.6;
+				opacity: 0.8;
+				font-weight: 400;
+				margin-bottom: 0.4rem;
+			}
+			.blog-desc {
+				font-size: 1rem;
+				opacity: 0.8;
+				font-weight: 400;
+				height: 7rem;
+			}
+		}
+		.thumb-content {
+			img {
+				border-radius: 5px;
+			}
+		}
+	}
+
+	.icons {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 2rem;
+		padding-bottom: 0.5rem;
+		.left-icon {
+			display: flex;
+			height: inherit;
+			align-items: center;
+			svg {
+				height: 20px;
+				margin-right: 0.5rem;
+			}
+		}
+		.right-icon {
+			svg {
+				height: 20px;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.post-comp {
+		min-width: 300px;
+		max-width: 100%;
+		min-height: 500px;
+		max-height: 40%;
+		.blog-desc {
+			display: flex;
+			flex-direction: column;
+			height: 450px;
+			.thumb-content {
+				padding-top: 1rem;
+				img {
+					height: 32vw;
+					min-height: 170px;
+				}
+			}
+		}
+		.icons {
+			bottom: 0;
+			height: 1.5rem;
+			align-items: baseline;
+			padding: 0;
+		}
+	}
+}

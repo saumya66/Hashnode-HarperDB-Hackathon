@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+body {
+	font-family: Inter;
+	background-color: #e5e7eb;
+}
+
+.app {
+	display: flex;
+	width: 98%;
+	padding-left: 1rem;
+	justify-content: center;
+	.scroll {
+		display: flex;
+		height: 910px;
+		overflow: hidden;
+		overflow-y: scroll;
+		scroll-snap-type: y mandatory;
+	}
+	.scroll::-webkit-scrollbar {
+		display: none;
+	}
+
+	.example {
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+}
+
+@media (max-width: 1090px) {
+	.app {
+		padding-left: 0.1rem;
+		width: 100%;
+	}
+}

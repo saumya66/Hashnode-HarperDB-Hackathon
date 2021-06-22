@@ -1,0 +1,23 @@
+.feed {
+	min-width: 470px;
+	max-width: 70%;
+
+	margin: 0 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+	.feed {
+		min-width: 470px;
+		max-width: 90%;
+	}
+}
+
+@media (max-width: 768px) {
+	.feed {
+		margin: 0 0.2rem;
+		min-width: 306px;
+		max-width: 98%;
+	}
+}

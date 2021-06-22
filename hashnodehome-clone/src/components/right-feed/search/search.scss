@@ -1,0 +1,40 @@
+.search {
+	width: 100%;
+	height: 2.2rem;
+	background-color: #ffffff;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+	.search-icon {
+		opacity: 0.8;
+		.fa {
+			font-size: 1.2rem;
+			opacity: 0.5;
+		}
+	}
+	.inp {
+		width: 90%;
+		display: flex;
+		align-items: center;
+		input[type="text"] {
+			margin-top: 0.5rem;
+			height: 2rem;
+			width: 100%;
+			border: 0;
+		}
+		::placeholder {
+			font-size: 1.2rem;
+			opacity: 1;
+		}
+	}
+	.btn {
+		width: 1.2rem;
+		height: 1.2rem;
+		border-radius: 5px;
+		border: 1px solid gray;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}

@@ -1,0 +1,10 @@
+.right-feed {
+	min-width: 300px;
+	max-width: 20%;
+}
+
+@media (max-width: 1090px) {
+	.right-feed {
+		display: none;
+	}
+}

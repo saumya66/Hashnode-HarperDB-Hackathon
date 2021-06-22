@@ -1,0 +1,77 @@
+.user-article {
+	height: 5rem;
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 1rem;
+
+	.img {
+		height: 5rem;
+		width: 13%;
+		display: flex;
+		align-items: flex-start;
+		margin-right: 0.5rem;
+		.profile-pic {
+			border-radius: 50%;
+		}
+	}
+	.blog-info {
+		width: 80%;
+		height: 5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		.blog-name {
+			height: 2.5rem;
+			overflow: hidden;
+			margin: 0;
+			font-size: 1rem;
+			font-weight: 500;
+		}
+		.user-name {
+			margin: 0;
+			font-size: 0.8rem;
+			opacity: 0.6;
+			font-weight: 500;
+		}
+		.stats {
+			display: flex;
+			align-items: flex-end;
+			.likes {
+				width: 4.2rem;
+				display: flex;
+				align-items: center;
+				svg {
+					height: 18px;
+					opacity: 0.6;
+					margin-right: 0.4rem;
+				}
+
+				margin-right: 0.5rem;
+				h5 {
+					margin: 0;
+					margin-right: 0.6rem;
+					font-size: 0.9rem;
+					opacity: 0.8;
+					font-weight: 500;
+				}
+			}
+			.comments {
+				width: 3rem;
+				display: flex;
+				align-items: center;
+				svg {
+					height: 18px;
+					opacity: 0.6;
+					margin-right: 0.4rem;
+				}
+				h5 {
+					margin: 0;
+					margin-right: 0.7rem;
+					font-size: 0.9rem;
+					opacity: 0.8;
+					font-weight: 500;
+				}
+			}
+		}
+	}
+}
