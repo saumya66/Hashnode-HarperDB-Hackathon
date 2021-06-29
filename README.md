@@ -6,10 +6,10 @@
 #### Full Responsive UI !
 
 ## Screenshots
-<p float="left">
+<p float="left"> 
 
-<img src="https://user-images.githubusercontent.com/60464414/120117442-dfe72280-c1aa-11eb-9dba-dc8b4afc1144.PNG" alt="drawing" width="500"/>
-<img src="https://user-images.githubusercontent.com/60464414/120117453-e4134000-c1aa-11eb-8cb4-f901d1c69a9d.PNG" alt="drawing" width="200"/>
+<img src="https://user-images.githubusercontent.com/60464414/123850911-32496980-d938-11eb-8996-5ab577172048.png" alt="drawing" width="650"/>
+<img src="https://user-images.githubusercontent.com/60464414/123850808-180f8b80-d938-11eb-9eb4-fe6995133d22.png" alt="drawing" width="300"/>
  
 </p>
 
