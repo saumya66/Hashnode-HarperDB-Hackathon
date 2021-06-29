@@ -24,7 +24,7 @@
   
 ## Deployed At
 
-**Frontend:** https://mainteny-admin.netlify.app/
+**Frontend:** https://hashnode-home-clone.vercel.app/
 
 **Server Endpoints:** https://hashnode-harper.herokuapp.com/
 
