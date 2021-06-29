@@ -4,21 +4,31 @@ const Social = () => {
 	return (
 		<div className="social">
 			<div className="social-icons">
-				<div className="icon">
-					<i className="fa fa-twitter-square"></i>
-				</div>
-				<div className="icon">
-					<i class="fa fa-linkedin"></i>
-				</div>
-				<div className="icon">
-					<i class="fa fa-instagram"></i>
-				</div>
-				<div className="icon">
-					<i class="fa fa-facebook"></i>
-				</div>
-				<div className="icon">
-					<i class="fa fa-youtube"></i>
-				</div>
+				<a href="https://twitter.com/hashnode">
+					<div className="icon">
+						<i className="fa fa-twitter-square"></i>
+					</div>
+				</a>
+				<a href="https://www.linkedin.com/company/hashnode/">
+					<div className="icon">
+						<i class="fa fa-linkedin"></i>
+					</div>
+				</a>
+				<a href="https://instagram.com/hashnode">
+					<div className="icon">
+						<i class="fa fa-instagram"></i>
+					</div>
+				</a>
+				<a href="https://facebook.com/hashnode">
+					<div className="icon">
+						<i class="fa fa-facebook"></i>
+					</div>
+				</a>
+				<a href="https://www.youtube.com/channel/UC8mNp5jUzd2e6qvbdQtUsQw/">
+					<div className="icon">
+						<i class="fa fa-youtube"></i>
+					</div>
+				</a>
 			</div>
 			<div className="menus">
 				<div className="left-col">

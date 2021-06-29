@@ -10,6 +10,12 @@ const RightFeed = () => {
 			<TopArticle />
 			<BlogStats />
 			<Social />
+			<p>
+				Made with 🧡 by{" "}
+				<a href="https://twitter.com/saumya4real" target="_blank">
+					Saumya Ranjan Nayak
+				</a>
+			</p>
 		</div>
 	);
 };

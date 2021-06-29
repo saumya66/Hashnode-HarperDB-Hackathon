@@ -1,6 +1,14 @@
 .right-feed {
 	min-width: 300px;
 	max-width: 20%;
+	p {
+		padding-left: 0.8rem;
+		font-size: 1rem;
+		a {
+			font-weight: 600;
+			font-size: 1rem;
+		}
+	}
 }
 
 @media (max-width: 1090px) {
