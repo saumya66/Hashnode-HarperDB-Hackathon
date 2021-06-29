@@ -31,10 +31,10 @@
   
 ## API Reference
 
-#### Get all Students
+#### Get all Blog Info
 
 ```http
-  GET /students/
+  GET /data/
 ```
  
  
